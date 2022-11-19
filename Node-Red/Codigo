@@ -1,0 +1,115 @@
+[
+  {
+    "id": "49bdaeeab93e2c27",
+    "type": "tab",
+    "label": "Flow 1",
+    "disabled": false,
+    "info": "",
+    "env": []
+  },
+  {
+    "id": "bba7586c8393728d",
+    "type": "debug",
+    "z": "49bdaeeab93e2c27",
+    "name": "debug 1",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "payload",
+    "targetType": "msg",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 760,
+    "y": 160,
+    "wires": []
+  },
+  {
+    "id": "281bb755f852754b",
+    "type": "node-red-contrib-whatsapp-cmb-send-message",
+    "z": "49bdaeeab93e2c27",
+    "name": "Mensagem",
+    "account": "69e2b4656f8a12fd",
+    "text": "payload",
+    "inputtypemessage": "msg",
+    "rejectssl": false,
+    "x": 770,
+    "y": 240,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "5c127d162e555d0a",
+    "type": "function",
+    "z": "49bdaeeab93e2c27",
+    "name": "Sensor de Gás",
+    "func": "//var uni = ' ºC - ';\n//var status = ' Detectado !!';\nmsg.payload = msg.payload;\nreturn msg;",
+    "outputs": 1,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 520,
+    "y": 200,
+    "wires": [
+      [
+        "281bb755f852754b",
+        "bba7586c8393728d"
+      ]
+    ]
+  },
+  {
+    "id": "b745a6357327c1ea",
+    "type": "mqtt in",
+    "z": "49bdaeeab93e2c27",
+    "name": "Sensor_Gas/gas",
+    "topic": "Sensor_Gas/gas",
+    "qos": "0",
+    "datatype": "auto-detect",
+    "broker": "76badede08caa03f",
+    "nl": false,
+    "rap": true,
+    "rh": 0,
+    "inputs": 0,
+    "x": 240,
+    "y": 200,
+    "wires": [
+      [
+        "5c127d162e555d0a"
+      ]
+    ]
+  },
+  {
+    "id": "69e2b4656f8a12fd",
+    "type": "node-red-contrib-whatsapp-cmb-account",
+    "name": "MSG_WhatsApp"
+  },
+  {
+    "id": "76badede08caa03f",
+    "type": "mqtt-broker",
+    "name": "",
+    "broker": "20.226.77.22",
+    "port": "1883",
+    "clientid": "",
+    "autoConnect": true,
+    "usetls": false,
+    "protocolVersion": "4",
+    "keepalive": "60",
+    "cleansession": true,
+    "birthTopic": "",
+    "birthQos": "0",
+    "birthPayload": "",
+    "birthMsg": {},
+    "closeTopic": "",
+    "closeQos": "0",
+    "closePayload": "",
+    "closeMsg": {},
+    "willTopic": "",
+    "willQos": "0",
+    "willPayload": "",
+    "willMsg": {},
+    "userProps": "",
+    "sessionExpiry": ""
+  }
+]
