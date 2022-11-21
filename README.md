@@ -1,6 +1,6 @@
 #Projeto IoT - Detector de Gás com disparo de sirene
 
-Este projeto foi desenvolvido para ser utilizado em residência. Ele será responsável de monitorar o vazamento de Gás e através de um protocolo MQTT enviar mensagem para um app(WhatsApp) através da mensagem de Alerta sobre o vazamento de Gás e automaticamente será emitido alarme para um hardware(buzzer) indicando que houve vazamento.
+Este projeto foi desenvolvido para ser utilizado em residência. Ele será responsável de monitorar o vazamento de Gás e através de um protocolo MQTT enviar mensagem para um app(WhatsApp) através da mensagem de Alerta sobre o vazamento de Gás e automaticamente será emitido alarme para um hardware(buzzer) indicando que houve vazamento de gás.
 
 ##Hardwares utilizados no projeto:
 ### 1. Módulo NodeMCU ESP8266
