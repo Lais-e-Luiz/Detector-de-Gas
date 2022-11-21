@@ -4,11 +4,10 @@ Este projeto foi desenvolvido para ser utilizado em residência. Ele será respo
 
 ##Hardwares utilizados no projeto:
 ### 1. Módulo NodeMCU ESP8266
-
 <div>
 <img src="https://user-images.githubusercontent.com/118316951/202917171-b6cf72d3-080f-4da4-b7f5-9bc1502a27b7.png" width= "200px">
 </div>
-![NodeMCU_ESP8266](https://user-images.githubusercontent.com/118316951/202917171-b6cf72d3-080f-4da4-b7f5-9bc1502a27b7.png)
+
 ### 2. Sensor de Gás modelo MQ-9
 ### 4. Buzzer ativdo 3V
 ### 5. Fonte de energia
