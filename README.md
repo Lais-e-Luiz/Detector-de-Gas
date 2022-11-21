@@ -9,6 +9,13 @@ Este projeto foi desenvolvido para ser utilizado em residência. Ele será respo
 </div>
 
 ### 2. Sensor de Gás modelo MQ-9
-### 4. Buzzer ativdo 3V
+<div>
+<img src="https://user-images.githubusercontent.com/118316951/203043123-4338a644-f9e2-4135-85ca-03e6510e724b.png" width= "80px">
+</div>
+### 3. Buzzer ativdo 3V
+
+<div>
+<img src="https://user-images.githubusercontent.com/118316951/203043156-3d666b5f-3552-4ae8-8227-a5b702ca5525.png" width= "50px">
+</div>
 ### 5. Fonte de energia
 
