@@ -41,6 +41,9 @@ Este projeto foi desenvolvido para ser utilizado em residência. Ele será respo
 
 3. Através de uma máquina virtual (Microsoft Azure) criamos uma conta, foi colocado esta máquina para rodar e foi feito o acesso via desktop para a instalação dos softwares: Node-red e Mosquitto(MQTT Broker).
 
+<img src="https://user-images.githubusercontent.com/118316951/203662829-f2194f6f-19c5-4b80-b04e-0a8e16ace9d4.jpg" width="400px">
+
+
 4. Foi aberto um terminal através do prompt de comando (Maquina Virtual) e executando o Node-red para que este ficasse em execução para conexão via HTTP(utilizando o IP público da Máquina Virtual) foi elabora o código para que o Node-red fizesse a comunicação para o Mosquitto(MQTT Broker) e gerasse mensagem atráves de um serviço na nuvem chamado CallMeBot API (https://www.callmebot.com/) incluindo o número disponbilidado na plataforma para o App WhatsApp, sendo fornecido um chave(key) única para ser inserida no Node-red.
 
 <img src="https://user-images.githubusercontent.com/118316951/203662537-94c5908a-a14f-4a5d-bb65-678a212288ff.png" width="400px">
