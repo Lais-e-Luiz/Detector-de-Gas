@@ -29,7 +29,7 @@ Este projeto foi desenvolvido para ser utilizado em residência. Ele será respo
 <img src="https://user-images.githubusercontent.com/118316951/203617307-38683b32-1bcd-4e6a-b79e-674d11ccf080.jpg" width= "350px">
 </div>
 
-1. Foi conectado o sensor de Gás MQ9 no pino 4 e o Atuador Buzzer no pino 12 no NodeMCU ESP8266 e utilizando um cabo com conector USB ao computador, foi elaborado uma codificação(Stech) através da IDE do Arduino, disponibilizado no projeto.
+1. Esquema de ligação na Protobord: Foi conectado o sensor de Gás MQ9 no pino 4 e o Atuador Buzzer no pino 12 no NodeMCU ESP8266 e utilizando um cabo com conector USB ao computador, foi elaborado uma codificação(Stech) através da IDE do Arduino, disponibilizado no projeto.
 
 2. Depois do código ser compilado e sendo salvo para a placa NodeMCU ESP8266, foi desconectado do computador e ligado a uma rede de energia elétrica através de uma fonte com saída 5V. 
 
