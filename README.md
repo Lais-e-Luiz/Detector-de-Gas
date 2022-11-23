@@ -25,6 +25,18 @@ Este projeto foi desenvolvido para ser utilizado em residência. Ele será respo
 </div>
 
 ## Funcionamento:
+<div>
+<img src="https://user-images.githubusercontent.com/118316951/203617307-38683b32-1bcd-4e6a-b79e-674d11ccf080.jpg" width= "350px">
+</div>
+
+1. Foi conectado o sensor de Gás MQ9 no pino 4 e o Atuador Buzzer no pino 12 no NodeMCU ESP8266 e utilizando um cabo com conector USB ao computador, foi elaborado uma codificação(Stech) através da IDE do Arduino, disponibilizado no projeto.
+
+2. Depois do código ser compilado e sendo salvo para a placa NodeMCU ESP8266, foi desconectado do computador e ligado a uma rede de energia elétrica através de uma fonte com saída 5V. 
+
+3. Através de uma máquina virtual (Microsoft Azure) criamos uma conta, foi colocado esta máquina para rodar e foi feito o acesso via desktop para a instalação dos softwares: Node-red e Mosquitto(MQTT Broker).
+
+4. Foi aberto um terminal através do prompt de comando (Maquina Virtual) e executado o Node-red para que este ficasse em execução para conexão via HTTP(utilizando o IP público da Máquina Virtual) foi elabora o código para que o Node-red fizesse a comunicação para o Mosquitto(MQTT Broker) e gerasse mensagem atráves de um serviço na nuvem chamado 
+
 
 
 
