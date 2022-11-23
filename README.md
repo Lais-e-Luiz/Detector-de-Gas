@@ -6,34 +6,34 @@ Este projeto foi desenvolvido para ser utilizado em residência. Ele será respo
 
 #### 1. Protoboard 400 pontos
 
-<div>
+
 <img src="https://user-images.githubusercontent.com/118316951/203629033-753cafba-746d-4aa6-95e2-84dee97130e3.png" width= "350px">
-</div>
+
 
 #### 1. Módulo NodeMCU ESP8266
-<div>
+
 <img src="https://user-images.githubusercontent.com/118316951/202917171-b6cf72d3-080f-4da4-b7f5-9bc1502a27b7.png" width= "200px">
-</div>
+
 
 #### 2. Sensor de Gás modelo MQ-9
-<div>
+
 <img src="https://user-images.githubusercontent.com/118316951/203043123-4338a644-f9e2-4135-85ca-03e6510e724b.png" width= "80px">
-</div>
+
 
 #### 3. Buzzer ativo 3V
-<div>
+
 <img src="https://user-images.githubusercontent.com/118316951/203043156-3d666b5f-3552-4ae8-8227-a5b702ca5525.png" width= "50px">
-</div>
+
 
 #### 5. Fonte de energia 
-<div>
+
 <img src="https://user-images.githubusercontent.com/118316951/203613837-63277675-bc15-4a8f-966e-303381ddbe08.png" width= "180px">
-</div>
+
 
 ## Funcionamento:
-<div>
+
 <img src="https://user-images.githubusercontent.com/118316951/203617307-38683b32-1bcd-4e6a-b79e-674d11ccf080.jpg" width= "350px">
-</div>
+
 
 1. Esquema de ligação na Protobord: Foi conectado o sensor de Gás MQ9 no pino 4 e o Atuador Buzzer no pino 12 no NodeMCU ESP8266 e utilizando um cabo com conector USB ao computador, foi elaborado uma codificação(Stech) através da IDE do Arduino, disponibilizado no projeto.
 
