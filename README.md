@@ -4,6 +4,12 @@ Este projeto foi desenvolvido para ser utilizado em residência. Ele será respo
 
 ## Hardwares utilizados no projeto:
 
+#### 1. Protoboard 400 pontos
+
+<div>
+<img src="https://user-images.githubusercontent.com/118316951/203629033-753cafba-746d-4aa6-95e2-84dee97130e3.png" width= "350px">
+</div>
+
 #### 1. Módulo NodeMCU ESP8266
 <div>
 <img src="https://user-images.githubusercontent.com/118316951/202917171-b6cf72d3-080f-4da4-b7f5-9bc1502a27b7.png" width= "200px">
