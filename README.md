@@ -50,5 +50,6 @@ Este projeto foi desenvolvido para ser utilizado em residência. Ele será respo
 
 5. Acessando o Node-red atravées do IP público fornecido pela Máquina Virtual são elaborados os nós(node) que executarão a lógica de funcionamento do sistema, tanto para receber os dados vindos do NodeMCU ESP8266 através do MQTT(broker) Mosquitto para ser processado e ficar escutando qualquer alteração no Sensor de Gás para envio da mensagem quando este detectar vazamento de gás e enviar sinal para o acionamento da buzzer(sinal sonoro).
 
+<img src="https://user-images.githubusercontent.com/118316951/203775343-13727667-1e35-47a1-859b-54dd78144560.jpg" width="400px">
 
 
